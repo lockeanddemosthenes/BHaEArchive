@@ -14,9 +14,7 @@ body {
     font-size: 1.8rem;
     line-height: 1.618;
     max-width: 38em;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px auto;
     color: #ccc;
     padding: 30px;
     background-color: rgba(255,255,255,0.1);
@@ -34,6 +32,34 @@ body {
         font-size: 1.35rem; }
 }
 
+#page-wrap {
+    width: 600px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.openBtn {
+    cursor: pointer;
+    position: fixed;
+    left: 2em;
+    bottom: 2em;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 50px;
+}
+
+.sidebar {
+    width: 0;
+    position: fixed;
+    left: 2em;
+    bottom: 15em;
+    overflow: hidden;
+    color: #ccc;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     font-family: 'EB-Garamond';
@@ -42,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     word-wrap: break-word;
     -ms-word-break: break-all;
     word-break: break-word;
-    margin: 3rem 4rem 0.6em 2.5rem;
+    margin: 3rem 2.5rem 0em 2.5rem;
 }
 
 h1 {
@@ -81,16 +107,12 @@ hr {
     border-color: #1d7484;
 }
 
-a {
+a, a:active {
     text-decoration: none;
     color: #64C89A;
 }
 a:hover {
-    color: #982c61;
-    border-bottom: 2px solid #fff;
-}
-a:visited {
-    color: #64C89A;
+    color: #f2fffc;
 }
 
 ul {
@@ -179,10 +201,10 @@ textarea {
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
-    background-color: #1d7484;
-    color: #f9f9f9;
+    background-color: #64C89A;
+    color: #333;
     border-radius: 1px;
-    border: 1px solid #1d7484;
+    border: none;
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -193,9 +215,8 @@ textarea {
 }
 
 .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #982c61;
-    border-color: #982c61;
-    color: #f9f9f9;
+    background-color: #f2fffc;
+    color: #333;
     outline: 0;
 }
 
