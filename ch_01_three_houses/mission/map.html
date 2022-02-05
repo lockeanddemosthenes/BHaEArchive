@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - map-ch01</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" />
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">map-ch01</div>
+
+            <div class="preamble__entry preamble__entry--small"></div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+    <div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/358788505012404225/54b14bf056d0d763483baa33954bf8a2.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="edelgard von hresvelg#6432" data-user-id="358788505012404225" style="color: #79CDCD">mercedes von martritz</span>
+
+
+        <span class="chatlog__timestamp">29-Feb-20 11:53 PM</span>
+
+            <div class="chatlog__message " data-message-id="683537328769073191" id="message-683537328769073191">
+                <div class="chatlog__content">
+                    <span class="markdown">/slaps this in here ill write something tomorrow becos im tired/</span>
+
+                </div>
+
+                <div class="chatlog__attachment">
+                    <a href="https://cdn.discordapp.com/attachments/681318762888167510/683537328609951754/chapterone.png">
+                        
+                            <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/681318762888167510/683537328609951754/chapterone.png" alt="Attachment" />
+                    </a>
+                </div>
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="peeke" title="peeke" src="https://cdn.discordapp.com/emojis/671809135343566852.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="🇵" title="🇵" src="https://twemoji.maxcdn.com/2/72x72/1f1f5.png" />
+                            <span class="chatlog__reaction-count">1</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭕" title="⭕" src="https://twemoji.maxcdn.com/2/72x72/2b55.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="🇬" title="🇬" src="https://twemoji.maxcdn.com/2/72x72/1f1ec.png" />
+                            <span class="chatlog__reaction-count">1</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="👀" title="👀" src="https://twemoji.maxcdn.com/2/72x72/1f440.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="BerniePog" title="BerniePog" src="https://cdn.discordapp.com/emojis/676663169590099975.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+    </div>
+</div><div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/358788505012404225/54b14bf056d0d763483baa33954bf8a2.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="edelgard von hresvelg#6432" data-user-id="358788505012404225" style="color: #79CDCD">mercedes von martritz</span>
+
+
+        <span class="chatlog__timestamp">01-Mar-20 12:34 AM</span>
+
+            <div class="chatlog__message " data-message-id="683547599005155331" id="message-683547599005155331">
+                <div class="chatlog__content">
+                    <span class="markdown">temp text</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="683547652628938914" id="message-683547652628938914">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>Terrain Key</strong>
+Dark grey = uncrossable
+Light green = forest, -1 mvt, +10 avo
+Dark green = thicket, -3 mvt, +30 avo, +3 def
+Light grey w/lines = stairs, -5 mvt to cavalry
+Brown = Barriers
+
+(all professors are stationary)</span>
+
+                </div>
+
+
+
+            </div>
+    </div>
+</div><div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/358788505012404225/54b14bf056d0d763483baa33954bf8a2.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="edelgard von hresvelg#6432" data-user-id="358788505012404225" style="color: #79CDCD">mercedes von martritz</span>
+
+
+        <span class="chatlog__timestamp">02-Mar-20 05:53 PM</span>
+
+            <div class="chatlog__message " data-message-id="684171545899171840" id="message-684171545899171840">
+                <div class="chatlog__content">
+                    <span class="markdown">quick note, if you do engage with someone in battle ping them please, so they can do a response! <img class="emoji " alt="hildacaree" title="hildacaree" src="https://cdn.discordapp.com/emojis/677014447591653376.png" /></span>
+
+                </div>
+
+
+
+            </div>
+    </div>
+</div><div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/358788505012404225/54b14bf056d0d763483baa33954bf8a2.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="edelgard von hresvelg#6432" data-user-id="358788505012404225" style="color: #79CDCD">mercedes von martritz</span>
+
+
+        <span class="chatlog__timestamp">02-Mar-20 06:13 PM</span>
+
+            <div class="chatlog__message " data-message-id="684176561335042068" id="message-684176561335042068">
+                <div class="chatlog__content">
+                    <span class="markdown">GO!</span>
+
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 5 message(s)</div>
+</div>
+
+</body>
+</html>
