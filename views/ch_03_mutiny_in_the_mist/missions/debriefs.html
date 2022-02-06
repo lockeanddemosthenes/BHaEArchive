@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - debriefs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../../static/style.css" />
+    <link href="../../../static/all.css" rel="stylesheet">
+    <script src="../../../static/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="sidebarBtn">
+    <button class="openBtn" onclick="changeNav()"><i class="fas fa-ellipsis-v"></i></button>
+</div>
+<div id="mySidebar" class="sidebar">
+    <p><a href="../../../index.html">Home</a></p>
+    <p><a href="../../../index.html#ch03">Back to Chapter</a></p>
+</div>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <a href="../../../index.html"><img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" /></a>
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">♞ &#119810;&#119841;&#119834;&#119849;&#119853;&#119838;&#119851; &#120785;: &#119820;&#119854;&#119853;&#119842;&#119847;&#119858; &#119842;&#119847; &#119853;&#119841;&#119838; &#119820;&#119842;&#119852;&#119853; / debriefs</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/7860970dedd3e7bb71c8dd0347953c20.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: rgb(12,242,212)">Syl ᘛ⁐̤ᕐᐷ #SylvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">27-Jul-20 03:38 PM</span>
+
+            <div class="chatlog__message " data-message-id="737438709762228245" id="message-737438709762228245">
+                <div class="chatlog__content">
+                    <div class="markdown"> </div>
+                </div>
+
+                    <div class="chatlog__attachment">
+                            <a href="https://cdn.discordapp.com/attachments/728357849817940050/737438709607170068/unknown.png">
+                                    <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/728357849817940050/737438709607170068/unknown.png" alt="Attachment">
+                            </a>
+                    </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="737438912737443851" id="message-737438912737443851">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119827;&#119815;&#119812; &#119820;&#119808;&#119814;&#119811;&#119825;&#119812;&#119811; &#119808;&#119820;&#119809;&#119828;&#119826;&#119815;</div>
+Lord Lonato, a minor lord of the Holy Kingdom of Faerghus, has rallied troops against the Church of Seiros itself. A unit of the Knights of Seiros drove the head of the rebellion back to Castle Gaspard about two weeks ago, and another is now being dispatched to claim the castle and clear out the rebellion. Alongside this unit of Knights travel the Blue Lions.
+
+Upon arrival, the weather is particularly foggy. Strange, considering how clear the day was before. Though you see the shapes of the trees and terrain, beware of unseen enemies lurking beyond...
+
+<strong>GOAL:</strong> Defeat Lord Lonato.
+<span class="mention">#magdred-map-and-participants</span>
+<span class="mention">#magdred-ambush</span>
+<span class="mention">#magdred-ooc</span> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="737438929892016130" id="message-737438929892016130">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119827;&#119815;&#119812; &#119810;&#119822;&#119819;&#119819;&#119808;&#119823;&#119826;&#119812; &#119822;&#119813; &#119819;&#119822;&#119830;&#119812;&#119826;&#119827;&#119822;&#119813;&#119827;</div>
+Though Lonato heads the rebellion, the majority of their numbers are camped out in the abandoned village formerly known as Lowestoft. They await the storming of Castle Gaspard, hoping to cut off the Knights. Although they number many, they lack proper leadership. As such, the Black Eagles and the Golden Deer will work together to take them out swiftly.
+
+Yet, as they near the deteriorating walls, something is amiss. Shouting and chaos await - giant beasts have torn through, and the rebels are too preoccupied with them to march to Gaspard. Will you help them, then stop them? Or will you watch as man and beast rend each other to pieces?
+
+<strong>GOAL:</strong> Rout the enemy.
+<span class="mention">#lowestoft-map-and-participants</span>
+<span class="mention">#collapse-of-lowestoft</span>
+<span class="mention">#lowestoft-ooc</span> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="737438956181913600" id="message-737438956181913600">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119809;&#119808;&#119825;&#119825;&#119816;&#119810;&#119808;&#119811;&#119816;&#119821;&#119814; &#119808;&#119809;&#119832;&#119826;&#119826;</div>
+Put down your smithing hammer, old man, and take up your warhammer: it&#39;s time to defend Abyss yet again. But this time, something is different. Instead of the usual charge of curious faces who will run away at the sight of weapons and return later to nothing but rubble, it&#39;s a merry band of bandits who seem to want nothing but to get inside. You may not all have the most immaculate pasts, but you&#39;re not about to associate with those who pillage for fun and have no intent of changing.
+
+Worst of all? Rumor has it that one of your own hired them. Not just <em>selling</em> Abyss out - no, their malevolent heart has brought fear underground, and could do so again. Then again, what do rumors know?
+
+<strong>Goal:</strong> Rout the enemy <em>or</em> protect Enemy Target for 15 turns.
+<span class="mention">#abyss-map-and-participants</span>
+<span class="mention">#barricading-abyss</span>
+<span class="mention">#abyss-ooc</span> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="737439095579476029" id="message-737439095579476029">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119828;&#119823;&#119811;&#119808;&#119827;&#119816;&#119821;&#119814; &#119820;&#119808;&#119823;&#119826;</div>
+<a href="https://docs.google.com/spreadsheets/d/19lwoso_EP3rl38qsroH6lz_tDASz80vjHbQjQYTXY5I/edit#gid=0">https://docs.google.com/spreadsheets/d/19lwoso_EP3rl38qsroH6lz_tDASz80vjHbQjQYTXY5I/edit#gid=0</a> </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 5 message(s)</div>
+</div>
+
+</body>
+</html>

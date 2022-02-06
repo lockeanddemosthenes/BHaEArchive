@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     word-wrap: break-word;
     -ms-word-break: break-all;
     word-break: break-word;
-    margin: 3rem 2.5rem 0em 2.5rem;
+    margin: 3rem 2.5rem 0 2.5rem;
 }
 
 h1 {
@@ -96,7 +96,11 @@ h6 {
 }
 
 p {
-    margin: 0 0 0 2.5rem;
+    margin: 0 2.5rem;
+}
+
+.indent {
+    margin: 0 5rem;
 }
 
 small, sub, sup {
