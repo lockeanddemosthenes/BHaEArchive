@@ -1,0 +1,170 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - debriefs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../../static/style.css" />
+    <link href="../../../static/all.css" rel="stylesheet">
+    <script src="../../../static/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="sidebarBtn">
+    <button class="openBtn" onclick="changeNav()"><i class="fas fa-ellipsis-v"></i></button>
+</div>
+<div id="mySidebar" class="sidebar">
+    <p><a href="../../../index.html">Home</a></p>
+    <p><a href="../../../index.html#ch05">Back to Chapter</a></p>
+</div>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <a href="../../../index.html"><img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" /></a>
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">♞ &#119810;&#119841;&#119834;&#119849;&#119853;&#119838;&#119851; &#120787;: &#119809;&#119845;&#119834;&#119836;&#119844; &#119830;&#119842;&#119847;&#119837;&#119852; / debriefs</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/a_c8359a905bd87a33e38ce2de137cb3f3.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: rgb(12,242,212)">Syl ᘛ⁐̤ᕐᐷ #SylvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">23-Oct-20 11:44 AM</span>
+
+            <div class="chatlog__message " data-message-id="769224779626184734" id="message-769224779626184734">
+                <div class="chatlog__content">
+                    <div class="markdown"> </div>
+                </div>
+
+                    <div class="chatlog__attachment">
+                            <a href="https://cdn.discordapp.com/attachments/765992615715536957/769224779134795776/unknown.png">
+                                    <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/765992615715536957/769224779134795776/unknown.png" alt="Attachment">
+                            </a>
+                    </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="769224788203143170" id="message-769224788203143170">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119827;&#119815;&#119812; &#119814;&#119808;&#119828;&#119827;&#119816;&#119812;&#119825; &#119816;&#119821;&#119815;&#119812;&#119825;&#119816;&#119827;&#119808;&#119821;&#119810;&#119812;</div>
+<div class="quote">A gang of thieves led by a disowned son have stolen a Hero&#39;s Relic, the Lance of Ruin, from under Margravate Gautier&#39;s nose. A village has reported that they have holed up in a nearby abandoned fortress, the Conand Tower. With assistance from Sir Gilbert, the Blue Lions must take back holy property.
+</div>
+<strong>GOAL:</strong> Defeat the enemy commander. Note that, upon defeat, Miklan will transform into a Black Beast.
+<span class="mention">#bl-map-and-participants</span>
+<span class="mention">#bl-ooc</span> 
+<span class="mention">#bl-conand-tower</span> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="769224809719660565" id="message-769224809719660565">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119819;&#119808;&#119821;&#119811; &#119822;&#119813; &#119827;&#119815;&#119812; &#119814;&#119822;&#119819;&#119811;&#119812;&#119821; &#119811;&#119812;&#119812;&#119825;</div>
+<div class="quote">Lord Acheron, a relatively minor noble, has been stirring up border troubles throughout the Alliance with a team of soldiers and bandits. He owns land just north of the Great Bridge of Myrddin, a key border between Leicester and Adrestia, and seems to believe it means he should hold more influence. While normally the Church would not meddle in these affairs, it seems the bandits he hired to help invade Gloucester territory have their eyes on the Hero&#39;s Relic Thyrsus. It would be safer, then, for such holy relics to be stored with the utmost security.
+</div>
+<strong>GOAL:</strong> Defeat the enemy commander.
+<span class="mention">#gd-map-and-participants</span> 
+<span class="mention">#gd-gloucester-territory</span> 
+<span class="mention">#gd-ooc</span> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="769224831354404924" id="message-769224831354404924">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119826;&#119830;&#119822;&#119825;&#119811; &#119808;&#119821;&#119811; &#119826;&#119815;&#119816;&#119812;&#119819;&#119811; &#119822;&#119813; &#119826;&#119812;&#119816;&#119825;&#119822;&#119826;</div>
+<div class="quote">Pirates hired by the Western Church to attack the Eastern Church in a desperate gambit to get the Central Church off their back are advancing on the Alliance capital of Derdriu. Sir Alois and Sir Shamir have requested aid from the Black Eagles class in order to capture the ships.
+</div>
+<strong>GOAL:</strong> Defeat the enemy commander.
+<span class="mention">#be-map-and-participants</span> 
+<span class="mention">#be-ooc</span> 
+<span class="mention">#be-derdriu</span> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="769224849184784465" id="message-769224849184784465">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119830;&#119815;&#119808;&#119827; &#119819;&#119816;&#119812;&#119826; &#119809;&#119812;&#119821;&#119812;&#119808;&#119827;&#119815;</div>
+<div class="quote">As the rumors foretold, a squad of strange mercenaries show up in Abyss from a hidden entrance. The Ashen wolves lead them to the arena and away from the Abyssians&#39; homes. But shortly after the fighting begins, a bloodthirsty horseman shows up and slaughters without discrimination...
+</div>
+<strong>GOAL:</strong> Rout the enemy except for Death Knight.
+<span class="mention">#aw-map-and-participants</span> 
+<span class="mention">#aw-ooc</span> 
+<span class="mention">#aw-arena</span> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="769224865605222431" id="message-769224865605222431">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119828;&#119823;&#119811;&#119808;&#119827;&#119816;&#119821;&#119814; &#119820;&#119808;&#119823;&#119826;</div>
+<a href="https://docs.google.com/spreadsheets/d/1rG9sGgo7CmomicrrSXsfEbnfHraF_q7SyOEiMvtkDs4/edit#gid=638612136">https://docs.google.com/spreadsheets/d/1rG9sGgo7CmomicrrSXsfEbnfHraF_q7SyOEiMvtkDs4/edit#gid=638612136</a> </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 6 message(s)</div>
+</div>
+
+</body>
+</html>
