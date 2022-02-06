@@ -1,0 +1,156 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - debriefs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../../static/style.css" />
+    <link href="../../../static/all.css" rel="stylesheet">
+    <script src="../../../static/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="sidebarBtn">
+    <button class="openBtn" onclick="changeNav()"><i class="fas fa-ellipsis-v"></i></button>
+</div>
+<div id="mySidebar" class="sidebar">
+    <p><a href="../../../index.html">Home</a></p>
+    <p><a href="../../../index.html#ch04">Back to Chapter</a></p>
+</div>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <a href="../../../index.html"><img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" /></a>
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">♞ &#119810;&#119841;&#119834;&#119849;&#119853;&#119838;&#119851; &#120786;: &#119827;&#119841;&#119838; &#119825;&#119842;&#119853;&#119838; &#119848;&#119839; &#119825;&#119838;&#119835;&#119842;&#119851;&#119853;&#119841; / debriefs</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/7ec9af9a2868db3b03f5e838f31f6d60.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: rgb(12,242,212)">Syl ᘛ⁐̤ᕐᐷ #SylvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">10-Sep-20 02:03 PM</span>
+
+            <div class="chatlog__message " data-message-id="753677102548779109" id="message-753677102548779109">
+                <div class="chatlog__content">
+                    <div class="markdown"> </div>
+                </div>
+
+                    <div class="chatlog__attachment">
+                            <a href="https://cdn.discordapp.com/attachments/751508439787896842/753677101990805544/unknown.png">
+                                    <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/751508439787896842/753677101990805544/unknown.png" alt="Attachment">
+                            </a>
+                    </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="753677114472923237" id="message-753677114472923237">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119808;&#119826;&#119826;&#119808;&#119828;&#119819;&#119827; &#119808;&#119827; &#119827;&#119815;&#119812; &#119820;&#119808;&#119828;&#119826;&#119822;&#119819;&#119812;&#119828;&#119820;</div>
+Lady Rhea&#39;s life has been threatened with a possible assassination plot. But some believe it is a distraction from a more sinister plot. Stationed at the Holy Mausoleum on the night of the Goddess&#39; Rite of Rebirth, the Black Eagles arrive just in time to confront a shady band of strangers stealing from the tombs!
+
+<strong>GOAL:</strong> Defeat the enemy commander.
+<a href="be-map-and-participants.html"><span class="mention">#be-map-and-participants</span></a>
+<a href="be-assault-at-the-mausoleum.html"><span class="mention">#be-assault-at-the-mausoleum</span></a>
+<a href="be-ooc.html"><span class="mention">#be-ooc</span></a> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="753677134584873067" id="message-753677134584873067">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119826;&#119818;&#119816;&#119825;&#119820;&#119816;&#119826;&#119815; &#119816;&#119821; &#119827;&#119815;&#119812; &#119822;&#119828;&#119827;&#119826;&#119818;&#119816;&#119825;&#119827;&#119826;</div>
+Lady Rhea&#39;s life has been threatened with a possible assassination plot. Knights are stationed throughout the monastery, hidden in Pendlecombe, and placed in the mountains of Garreg Mach. It is up to the Golden Deer and the Blue Lions to watch the outskirts, where a mock battle was held months ago. Lucky you - you catch the filthy bandits as they approach!
+
+<strong>GOAL:</strong> Defeat the enemy commander.
+<a href="blgd-map-and-participants.html"><span class="mention">#blgd-map-and-participants</span></a>
+<a href="blgd-skirmish-in-the-outskirts.html"><span class="mention">#blgd-skirmish-in-the-outskirts</span></a>
+<a href="blgd-ooc.html"><span class="mention">#blgd-ooc</span></a> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="753677153027096657" id="message-753677153027096657">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119808; &#119810;&#119828;&#119825;&#119826;&#119812;&#119811; &#119825;&#119812;&#119819;&#119816;&#119810;</div>
+While the rest of the monastery prepares to defend the archbishop&#39;s life with their own, the Ashen Wolves are sent on a covert mission to recover a lost Heroes&#39; Relic given to Duke Gerth by Dagda a decade ago. Unfortunately, they&#39;re not the only ones who heard about the exchange...!
+
+<strong>GOAL:</strong> Rout the enemy.
+<a href="aw-map-and-participants.html"><span class="mention">#aw-map-and-participants</span></a>
+<a href="aw-cursed-relic.html"><span class="mention">#aw-cursed-relic</span></a>
+<a href="aw-ooc.html"><span class="mention">#aw-ooc</span></a> </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="753677180361375854" id="message-753677180361375854">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">➣ &#119828;&#119823;&#119811;&#119808;&#119827;&#119816;&#119821;&#119814; &#119820;&#119808;&#119823;&#119826;</div>
+<a href="https://docs.google.com/spreadsheets/d/1rZI4WJNgMT5oFTcJSOJwjGuqvGhU44bPIVGmJR5Q0CI/edit#gid=638612136">https://docs.google.com/spreadsheets/d/1rZI4WJNgMT5oFTcJSOJwjGuqvGhU44bPIVGmJR5Q0CI/edit#gid=638612136</a> </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 5 message(s)</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - be-map-and-participants</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../../static/style.css" />
+    <link href="../../../static/all.css" rel="stylesheet">
+    <script src="../../../static/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="sidebarBtn">
+    <button class="openBtn" onclick="changeNav()"><i class="fas fa-ellipsis-v"></i></button>
+</div>
+<div id="mySidebar" class="sidebar">
+    <p><a href="../../../index.html">Home</a></p>
+    <p><a href="../../../index.html#ch04">Back to Chapter</a></p>
+</div>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <a href="../../../index.html"><img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" /></a>
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">♞ &#119810;&#119841;&#119834;&#119849;&#119853;&#119838;&#119851; &#120786;: &#119827;&#119841;&#119838; &#119825;&#119842;&#119853;&#119838; &#119848;&#119839; &#119825;&#119838;&#119835;&#119842;&#119851;&#119853;&#119841; / be-map-and-participants</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/7ec9af9a2868db3b03f5e838f31f6d60.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: rgb(12,242,212)">Syl ᘛ⁐̤ᕐᐷ #SylvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">11-Sep-20 02:44 PM</span>
+
+            <div class="chatlog__message " data-message-id="754049685278294037" id="message-754049685278294037">
+                <div class="chatlog__content">
+                    <div class="markdown"> </div>
+                </div>
+
+                    <div class="chatlog__attachment">
+                            <a href="https://cdn.discordapp.com/attachments/751509001426173993/754049684875771985/unknown.png">
+                                    <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/751509001426173993/754049684875771985/unknown.png" alt="Attachment">
+                            </a>
+                    </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="754049711635300392" id="message-754049711635300392">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">&#119820;&#119808;&#119823; &#119818;&#119812;&#119832;</div>
+Dark grey || Uncrossable
+Light grey with == || Stairs; -5 Mvt for mounted units
+Note: This map will have reinforcements. </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="754049727418597458" id="message-754049727418597458">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">&#119823;&#119808;&#119825;&#119827;&#119816;&#119810;&#119816;&#119823;&#119808;&#119821;&#119827;&#119826;</div>
+<strong>⥇</strong> <span class="mention" style="color: rgb(233, 200, 150); background-color: rgba(233, 200, 150, 0.1);">@Ahab</span> 
+<strong>⥇</strong> <span class="mention" style="color: rgb(190, 0, 255); background-color: rgba(190, 0, 255, 0.1);">@Arvyn</span> 
+<strong>⥇</strong> <span class="mention" style="color: rgb(158, 127, 167); background-color: rgba(158, 127, 167, 0.1);">@Bernadetta</span>
+<strong>⥇</strong> <span class="mention" style="color: rgb(74, 115, 133); background-color: rgba(74, 115, 133, 0.1);">@Byleth</span> 
+<strong>⥇</strong> <span class="mention" style="color: rgb(108, 230, 165); background-color: rgba(108, 230, 165, 0.1);">@Celestyna</span>
+<strong>⥇</strong> <span class="mention" style="color: rgb(20, 3, 128); background-color: rgba(20, 3, 128, 0.1);">@Dahlia</span> 
+          <em><span class="mention" style="color: rgb(165, 157, 47); background-color: rgba(165, 157, 47, 0.1);">@William</span>, ATK</em>
+<strong>⥇</strong> <span class="mention" style="color: rgb(254, 79, 90); background-color: rgba(254, 79, 90, 0.1);">@Edelgard</span>
+          <em><span class="mention" style="color: rgb(120, 89, 95); background-color: rgba(120, 89, 95, 0.1);">@Dorothea</span>, DEF</em>
+<strong>⥇</strong> <span class="mention" style="color: rgb(1, 13, 19); background-color: rgba(1, 13, 19, 0.1);">@Hubert</span>
+<strong>⥇</strong> <span class="mention" style="color: rgb(145, 187, 243); background-color: rgba(145, 187, 243, 0.1);">@Finley</span>
+<strong>⥇</strong> <span class="mention" style="color: rgb(255, 181, 117); background-color: rgba(255, 181, 117, 0.1);">@Ferdinand</span>
+          <em><span class="mention" style="color: rgb(91, 129, 106); background-color: rgba(91, 129, 106, 0.1);">@Linhardt</span>, SUP</em>
+<strong>⥇</strong> <span class="mention" style="color: rgb(221, 146, 240); background-color: rgba(221, 146, 240, 0.1);">@Layla</span> 
+<strong>⥇</strong> <span class="mention" style="color: rgb(123, 3, 230); background-color: rgba(123, 3, 230, 0.1);">@Zero</span>
+          <em><span class="mention" style="color: rgb(255, 181, 181); background-color: rgba(255, 181, 181, 0.1);">@Esme</span>, DEF</em> <span class="chatlog__edited-timestamp" title="20-Sep-20 05:14 PM">(edited)</span></div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 3 message(s)</div>
+</div>
+
+</body>
+</html>
