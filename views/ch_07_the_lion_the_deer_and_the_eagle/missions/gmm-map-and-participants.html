@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - gmm-map-and-participants</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../../static/style.css" />
+    <link href="../../../static/all.css" rel="stylesheet">
+    <script src="../../../static/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="sidebarBtn">
+    <button class="openBtn" onclick="changeNav()"><i class="fas fa-ellipsis-v"></i></button>
+</div>
+<div id="mySidebar" class="sidebar">
+    <p><a href="../../../index.html">Home</a></p>
+    <p><a href="../../../index.html#ch06">Back to Chapter</a></p>
+</div>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <a href="../../../index.html"><img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" /></a>
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">♞ &#119810;&#119841;&#119834;&#119849;&#119853;&#119838;&#119851; &#120789;: &#119827;&#119841;&#119838; &#119819;&#119842;&#119848;&#119847;, &#119853;&#119841;&#119838; &#119811;&#119838;&#119838;&#119851;, &#119834;&#119847;&#119837; &#119853;&#119841;&#119838; &#119812;&#119834;&#119840;&#119845;&#119838; / gmm-map-and-participants</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/a_d75c3d99401eb08128606fe50ab4e1f5.gif" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: rgb(12,242,212)">Syl ᘛ⁐̤ᕐᐷ #SylvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">21-Mar-21 07:08 PM</span>
+
+            <div class="chatlog__message " data-message-id="823332379942584371" id="message-823332379942584371">
+                <div class="chatlog__content">
+                    <div class="markdown"> </div>
+                </div>
+
+                    <div class="chatlog__attachment">
+                            <a href="https://cdn.discordapp.com/attachments/814722494308417536/823332380152561724/image0.png">
+                                    <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/814722494308417536/823332380152561724/image0.png" alt="Attachment">
+                            </a>
+                    </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="823332391215955978" id="message-823332391215955978">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">&#119820;&#119808;&#119823; &#119818;&#119812;&#119832;</div>
+Light grey || Uncrossable except by fliers
+Light grey with == || Stairs; -5 Mvt for mounted units
+Light green || Forest; -1 Mvt, +10 Avo for infantry
+Dark green || Thicket; -3 Mvt, +30 Avo, +3 Def for infantry
+Gear || Increase challenge (creates more spawn platforms on east side of field)
+
+<strong>Reinforcements will be present at the start of each turn.</strong> <span class="chatlog__edited-timestamp" title="22-Mar-21 12:44 AM">(edited)</span></div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="823332429758332968" id="message-823332429758332968">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">&#119823;&#119808;&#119825;&#119827;&#119816;&#119810;&#119816;&#119823;&#119808;&#119821;&#119827;&#119826;</div>
+<strong>Blue Lions</strong>
+⥇ <span class="mention" style="color: rgb(168, 176, 248); background-color: rgba(168, 176, 248, 0.1);">@Selena</span> 
+⥇ <span class="mention" style="color: rgb(250, 165, 221); background-color: rgba(250, 165, 221, 0.1);">@Thyra</span> 
+     <span class="mention" style="color: rgb(189, 41, 41); background-color: rgba(189, 41, 41, 0.1);">@Zegrath</span>, DEF
+⥇ <span class="mention" style="color: rgb(115, 117, 175); background-color: rgba(115, 117, 175, 0.1);">@Felix</span> 
+     <span class="mention" style="color: rgb(193, 217, 254); background-color: rgba(193, 217, 254, 0.1);">@Emilie</span>, DEF
+⥇ <span class="mention" style="color: rgb(68, 94, 228); background-color: rgba(68, 94, 228, 0.1);">@Dimitri</span> 
+     <span class="mention" style="color: rgb(46, 143, 143); background-color: rgba(46, 143, 143, 0.1);">@Fritz</span>, DEF
+⥇ <span class="mention" style="color: rgb(248, 229, 160); background-color: rgba(248, 229, 160, 0.1);">@Ingrid</span>
+
+<strong>Black Eagles</strong>
+⥇ <span class="mention" style="color: rgb(254, 79, 90); background-color: rgba(254, 79, 90, 0.1);">@Edelgard</span>
+     <span class="mention" style="color: rgb(1, 13, 19); background-color: rgba(1, 13, 19, 0.1);">@Hubert</span>, ATK 
+⥇ <span class="mention" style="color: rgb(20, 3, 128); background-color: rgba(20, 3, 128, 0.1);">@Dahlia</span>
+     <span class="mention" style="color: rgb(222, 146, 207); background-color: rgba(222, 146, 207, 0.1);">@Lou</span>, DEF
+⥇ <span class="mention" style="color: rgb(232, 9, 232); background-color: rgba(232, 9, 232, 0.1);">@Arvyn</span>
+     <span class="mention" style="color: rgb(255, 181, 117); background-color: rgba(255, 181, 117, 0.1);">@Ferdinand</span>, DEF
+⥇ <span class="mention" style="color: rgb(221, 146, 240); background-color: rgba(221, 146, 240, 0.1);">@Layla</span> 
+⥇ <span class="mention" style="color: rgb(145, 187, 243); background-color: rgba(145, 187, 243, 0.1);">@Finley</span>  
+     <span class="mention" style="color: rgb(91, 129, 106); background-color: rgba(91, 129, 106, 0.1);">@Linhardt</span>, SUP
+
+<strong>Golden Deer</strong>
+⥇ <span class="mention" style="color: rgb(7, 142, 248); background-color: rgba(7, 142, 248, 0.1);">@Lucy</span>
+     <span class="mention" style="color: rgb(211, 137, 205); background-color: rgba(211, 137, 205, 0.1);">@Alyse</span>, SUP
+⥇ <span class="mention" style="color: rgb(171, 207, 250); background-color: rgba(171, 207, 250, 0.1);">@Marianne</span> 
+⥇ <span class="mention" style="color: rgb(198, 198, 157); background-color: rgba(198, 198, 157, 0.1);">@Ignatz</span> 
+     <span class="mention" style="color: rgb(235, 211, 163); background-color: rgba(235, 211, 163, 0.1);">@Raphael</span>, DEF
+⥇ <span class="mention" style="color: rgb(249, 229, 127); background-color: rgba(249, 229, 127, 0.1);">@Claude</span> 
+     <span class="mention" style="color: rgb(247, 203, 62); background-color: rgba(247, 203, 62, 0.1);">@Sabella</span>, ATK
+⥇ <span class="mention" style="color: rgb(204, 124, 255); background-color: rgba(204, 124, 255, 0.1);">@Lysithea</span>
+     <span class="mention" style="color: rgb(136, 249, 187); background-color: rgba(136, 249, 187, 0.1);">@Rowan</span>, SUP <span class="chatlog__edited-timestamp" title="21-Mar-21 07:10 PM">(edited)</span></div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="823332475391442976" id="message-823332475391442976">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">&#119823;&#119822;&#119816;&#119821;&#119827;&#119826;</div>
+- Each hit on a golem is 1 point.
+- Each health bar destroyed on a golem is 2 points.
+- Each barrier fully destroyed on a golem is 2 points.
+- Different prizes will be rewarded depending on total points earned. </div>
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="823332509478551562" id="message-823332509478551562">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight">&#119823;&#119825;&#119816;&#119833;&#119812;&#119826;</div>
+Prizes are given out cumulatively and to each student of a house unless listed otherwise. e.g. at the 100-point tier, everyone gets 500xp total. Don&#39;t force yourselves to get the top prize; it&#39;s been quite a few decades since Garreg Mach has actually given everything away!
+- 25 points: 100xp
+- 50 points: 200xp
+- 100 points: 300xp
+- 125 points: 250g
+- 150 points: 300g
+- 175 points: 450g
+- 200 points: 100xp
+- 225 points: 1 White Verona per house
+- 250 points: 1 Ambrosia per house
+- 275 points: 1 Ailell Pomegranate per house
+- 300 points: 1 Black Eagles Pendant to BE / 1 Blue Lion Brooch to BL / 1 Golden Deer Bracelet to GD
+<em>more to be added, if needed...</em> </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 5 message(s)</div>
+</div>
+
+</body>
+</html>

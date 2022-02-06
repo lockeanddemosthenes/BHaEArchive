@@ -1,0 +1,508 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - refreshments-table-se</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../../../static/style.css" />
+    <link href="../../../static/all.css" rel="stylesheet">
+    <script src="../../../static/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+
+        function showSpoiler(event, element) {
+            if (element && element.classList.contains('spoiler--hidden')) {
+                event.preventDefault();
+                element.classList.remove('spoiler--hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="sidebarBtn">
+    <button class="openBtn" onclick="changeNav()"><i class="fas fa-ellipsis-v"></i></button>
+</div>
+<div id="mySidebar" class="sidebar">
+    <p><a href="../../../index.html">Home</a></p>
+    <p><a href="../../../index.html#ch06">Back to Chapter</a></p>
+</div>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <a href="../../../index.html"><img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" /></a>
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">✵ &#120190;&#120213;&#120206;&#120215;&#120206;&#120217;&#120216;&#39; &#120176;&#120219;&#120202; / refreshments-table-se</div>
+
+            <div class="preamble__entry preamble__entry--small">Along one wall of the reception hall is a wide variety of snacks and drinks. Try not to gorge yourself too much.</div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/1b7a8ee3b620e4d5999e78af2325d362.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Thyra Iphigenia Mateus#0000" data-user-id="808214651295891486" style="">Thyra Iphigenia Mateus</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:09 AM</span>
+
+            <div class="chatlog__message " data-message-id="808217853479878696" id="message-808217853479878696">
+                <div class="chatlog__content">
+                    <div class="markdown">Thyra chills by the refreshments. Where else would she be? The dance floor? Not on the first song, no sirree! </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/a6ddad99a951294c4ee07bc355908d48.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Zegrath Blackwood#0000" data-user-id="808214651295891486" style="">Zegrath Blackwood</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:22 AM</span>
+
+            <div class="chatlog__message " data-message-id="808221143042359356" id="message-808221143042359356">
+                <div class="chatlog__content">
+                    <div class="markdown">Jingle jingle jingle, he can’t help but shake his head a bit to hear it, the movement only improved by his own fluffy untamed hair. But enough of that, it’s Thyra!!
+
+Even with all the partying and masks, he could spot her pretty easy. If she looks at him he’d give an excited wave with his real hand. This, too, makes his mask’s bells jingle a bit. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/7085d891cb50fe1fd2b37ec854b5c626.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Rowan Nadia Almasi#0000" data-user-id="808214651295891486" style="">Rowan Nadia Almasi</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:23 AM</span>
+
+            <div class="chatlog__message " data-message-id="808221342440357898" id="message-808221342440357898">
+                <div class="chatlog__content">
+                    <div class="markdown">Before Ziggy can get to her officially, Rowan is behind her best friend and setting her hands on the others shoulders. 
+
+“Boo!” </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/1b7a8ee3b620e4d5999e78af2325d362.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Thyra Iphigenia Mateus#0000" data-user-id="808214651295891486" style="">Thyra Iphigenia Mateus</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:24 AM</span>
+
+            <div class="chatlog__message " data-message-id="808221611543101490" id="message-808221611543101490">
+                <div class="chatlog__content">
+                    <div class="markdown">&quot;Can&#39;t scare me when you&#39;re that pretty,&quot; she says before turning around to give Rowan a hug. As she does, she also notices Ziggy! Damn, the two people she loves most in the world right here. Wave wave. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/a6ddad99a951294c4ee07bc355908d48.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Zegrath Blackwood#0000" data-user-id="808214651295891486" style="">Zegrath Blackwood</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:26 AM</span>
+
+            <div class="chatlog__message " data-message-id="808222307482730516" id="message-808222307482730516">
+                <div class="chatlog__content">
+                    <div class="markdown">He waddles on over and happily smiles at Rowan as well. He didn’t really hear their interaction though ;-;
+
+“Howdy! I’ve never worn a mask before... did I get a good one?” 
+His emerald eyes are bright when surrounded by all that red and black. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/7085d891cb50fe1fd2b37ec854b5c626.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Rowan Nadia Almasi#0000" data-user-id="808214651295891486" style="">Rowan Nadia Almasi</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:29 AM</span>
+
+            <div class="chatlog__message " data-message-id="808222873311379476" id="message-808222873311379476">
+                <div class="chatlog__content">
+                    <div class="markdown">Rowan smiles just as happily back at Ziggy before rolling her eyes at Thyra’s comment. 
+
+“Flirt.”
+
+Turning back to Zegrath she gives him a thumbs up. 
+
+“Looks really good, Zigs!” </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/1b7a8ee3b620e4d5999e78af2325d362.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Thyra Iphigenia Mateus#0000" data-user-id="808214651295891486" style="">Thyra Iphigenia Mateus</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:29 AM</span>
+
+            <div class="chatlog__message " data-message-id="808222956480102430" id="message-808222956480102430">
+                <div class="chatlog__content">
+                    <div class="markdown">Thyra giggles and gives him a hug as well. &quot;It&#39;s very jingly. I like it! The colors make your eyes stand out more than usual.&quot;
+
+She turns the gesture toward the table. &quot;No way you guys came here <em>just</em> for me,&quot; she jokes, &quot;So please, help yourselves!&quot; </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/a6ddad99a951294c4ee07bc355908d48.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Zegrath Blackwood#0000" data-user-id="808214651295891486" style="">Zegrath Blackwood</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:34 AM</span>
+
+            <div class="chatlog__message " data-message-id="808224216352161823" id="message-808224216352161823">
+                <div class="chatlog__content">
+                    <div class="markdown">Hug! 
+
+“Aw thank you guys... you both have really nice ones too! Rowan’s is fancy but yours is fun! I like it’s nose, hehe. I’m glad you wanted to come!”
+
+She is indeed correct since drinks and snacks will always be nice. For now though he just steals a cookie to nibble on. 
+
+“It feels nice to have all this happiness after last month. I think lots of people kinda needed this.” </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/1b7a8ee3b620e4d5999e78af2325d362.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Thyra Iphigenia Mateus#0000" data-user-id="808214651295891486" style="">Thyra Iphigenia Mateus</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">08-Feb-21 01:40 AM</span>
+
+            <div class="chatlog__message " data-message-id="808225768415952896" id="message-808225768415952896">
+                <div class="chatlog__content">
+                    <div class="markdown">She nods enthusiastically, inhaling a muffin at an alarming rate. &quot;Definitely. There&#39;s been... a lot, and the normal singular big meal isn&#39;t enough to raise spirits. Heheh, <em>raise spirits.</em>&quot; </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/523037873100947458/a5f8485476d8ff313b7b93214d718336.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ndd#9714" data-user-id="523037873100947458" style="">Ndd</span>
+
+
+        <span class="chatlog__timestamp">10-Feb-21 11:06 PM</span>
+
+            <div class="chatlog__message " data-message-id="809274183632027678" id="message-809274183632027678">
+                <div class="chatlog__content">
+                    <div class="markdown"><div class="pre pre--multiline nohighlight"> </div> </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/809396719488860180/457b0c78b4911c64ff84645d81f795f0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ingrid Brandl Galatea#0000" data-user-id="809396719488860180" style="">Ingrid Brandl Galatea</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">11-Feb-21 07:13 AM</span>
+
+            <div class="chatlog__message " data-message-id="809396720424845312" id="message-809396720424845312">
+                <div class="chatlog__content">
+                    <div class="markdown">So many lining on the table that Ingrid was having a hard time choosing what she would eat or want to eat. So she just chose random snacks to eat while being noble-like in her manner and gesture as she ate the snacks and food on the table. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/4d94983cbdc09ef7da1424e893fbe9b6.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ashe Ubert#0000" data-user-id="808214651295891486" style="">Ashe Ubert</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">16-Feb-21 04:38 PM</span>
+
+            <div class="chatlog__message " data-message-id="811350874139394128" id="message-811350874139394128">
+                <div class="chatlog__content">
+                    <div class="markdown">The archer noticed Ingrid and decided to approach. A bright smile on his expression as he visited the other. 
+
+&quot;Hello, Ingrid.&quot;
+
+His hands waves folded in front of him. Eyes scanning to see just what she had picked up for herself.
+
+&quot;I hope you&#39;re enjoying yourself? </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/809396719488860180/457b0c78b4911c64ff84645d81f795f0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ingrid Brandl Galatea#0000" data-user-id="809396719488860180" style="">Ingrid Brandl Galatea</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">16-Feb-21 10:38 PM</span>
+
+            <div class="chatlog__message " data-message-id="811441406895063041" id="message-811441406895063041">
+                <div class="chatlog__content">
+                    <div class="markdown">Ingrid turned to the voice next to her as she was chewing on the piece of meat that was on the dish. She chewed thoroughly and swallowed in one gulp as she let out a sigh.
+
+&quot;Oh, hello Ashe. Enjoying yourself?&quot; </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/4d94983cbdc09ef7da1424e893fbe9b6.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ashe Ubert#0000" data-user-id="808214651295891486" style="">Ashe Ubert</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">21-Feb-21 07:11 PM</span>
+
+            <div class="chatlog__message " data-message-id="813201293111590962" id="message-813201293111590962">
+                <div class="chatlog__content">
+                    <div class="markdown">&quot;I am. This event is rather enjoyable!&quot;
+
+He looked over the table, then back over to Ingrid. There was a nice assortment. He wouldn&#39;t even begin to know where to start. 
+
+&quot;Do you have any recommendations?&quot;
+
+He had a feeling Ingrid had tried most of what was there. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/809396719488860180/457b0c78b4911c64ff84645d81f795f0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ingrid Brandl Galatea#0000" data-user-id="809396719488860180" style="">Ingrid Brandl Galatea</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">21-Feb-21 10:25 PM</span>
+
+            <div class="chatlog__message " data-message-id="813250183013466126" id="message-813250183013466126">
+                <div class="chatlog__content">
+                    <div class="markdown">&quot;Everything is good on the table, but I would suggest some meat and veggie combination. Healthy to our body and soul&quot; Said the blond knight as she ate her veggie and meat combination dish. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/808214651295891486/4d94983cbdc09ef7da1424e893fbe9b6.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ashe Ubert#0000" data-user-id="808214651295891486" style="">Ashe Ubert</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">23-Feb-21 05:14 AM</span>
+
+            <div class="chatlog__message " data-message-id="813715315438780446" id="message-813715315438780446">
+                <div class="chatlog__content">
+                    <div class="markdown">Hearing her suggestion, the commoner would lean forward and grab just that. But additionally he’d make sure to grab some unfamiliar things, only enough for him to taste. 
+
+“Despite living among nobles for a few years I can never get used to set ups like this.”
+
+After speaking, he took a small bite, a sweet smile on his face after swallowing. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+
+<div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/809396719488860180/457b0c78b4911c64ff84645d81f795f0.png" alt="Avatar">
+    </div>
+    <div class="chatlog__messages">
+        <span class="chatlog__author-name" title="Ingrid Brandl Galatea#0000" data-user-id="809396719488860180" style="">Ingrid Brandl Galatea</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">24-Feb-21 12:49 PM</span>
+
+            <div class="chatlog__message " data-message-id="814192378197966958" id="message-814192378197966958">
+                <div class="chatlog__content">
+                    <div class="markdown">&quot;You will get used to it, Ashe. After all...&quot; She stopped herself as she knew that talking further into Lonato subject would deeply make him feel sad and burden again. And now, she needed to find a better subject to talk to him without bringing up Lonato. </div>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 17 message(s)</div>
+</div>
+
+</body>
+</html>
