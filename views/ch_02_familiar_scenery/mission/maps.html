@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Between Heaven and Earth - maps</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../../../static/style.css" />
+    <link href="../../../static/all.css" rel="stylesheet">
+    <script src="../../../static/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div id="sidebarBtn">
+    <button class="openBtn" onclick="changeNav()"><i class="fas fa-ellipsis-v"></i></button>
+</div>
+<div id="mySidebar" class="sidebar">
+    <p><a href="../../../index.html">Home</a></p>
+    <p><a href="../../../index.html#ch02">Back to Chapter</a></p>
+</div>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <a href="../../../index.html"><img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/670072498812878849/a_e56f538171c389ad8041db301a9dd0ce.png" alt="Guild icon" /></a>
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">Between Heaven and Earth</div>
+        <div class="preamble__entry">maps</div>
+
+            <div class="preamble__entry preamble__entry--small"></div>
+
+    </div>
+</div>
+
+<div class="chatlog">
+    <div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/64b99e2f1ce2378c507001d7d1e4d766.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: #0CF2D4">Capsar ᘛ⁐̤ᕐᐷ #SimpvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">17-May-20 01:12 PM</span>
+
+            <div class="chatlog__message " data-message-id="711627143045447820" id="message-711627143045447820">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>Tailtean Plains - Blue Lions</strong></span>
+
+                </div>
+
+                <div class="chatlog__attachment">
+                    <a href="https://cdn.discordapp.com/attachments/695348949292286002/711627142823411743/c0e40f29b418fed062bdcdf13cd2dfe5.png">
+                        
+                            <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/695348949292286002/711627142823411743/c0e40f29b418fed062bdcdf13cd2dfe5.png" alt="Attachment" />
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="711627877556420658" id="message-711627877556420658">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>Alliance Territory - Golden Deer</strong></span>
+
+                </div>
+
+                <div class="chatlog__attachment">
+                    <a href="https://cdn.discordapp.com/attachments/695348949292286002/711627877367545956/f4b953a5cf6705e93676b89009033bef.png">
+                        
+                            <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/695348949292286002/711627877367545956/f4b953a5cf6705e93676b89009033bef.png" alt="Attachment" />
+                    </a>
+                </div>
+
+
+            </div>
+    </div>
+</div><div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/64b99e2f1ce2378c507001d7d1e4d766.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: #0CF2D4">Capsar ᘛ⁐̤ᕐᐷ #SimpvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">17-May-20 04:34 PM</span>
+
+            <div class="chatlog__message " data-message-id="711678053054545951" id="message-711678053054545951">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>Red Canyon - Black Eagles</strong></span>
+
+                </div>
+
+                <div class="chatlog__attachment">
+                    <a href="https://cdn.discordapp.com/attachments/695348949292286002/711678052978917406/unknown.png">
+                        
+                            <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/695348949292286002/711678052978917406/unknown.png" alt="Attachment" />
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="711678180150214706" id="message-711678180150214706">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>Training Arena - Ashen Wolves</strong></span>
+
+                </div>
+
+                <div class="chatlog__attachment">
+                    <a href="https://cdn.discordapp.com/attachments/695348949292286002/711678179726721144/f5ecb0d580094d7983578ab83ef6eb33.png">
+                        
+                            <img class="chatlog__attachment-thumbnail" src="https://cdn.discordapp.com/attachments/695348949292286002/711678179726721144/f5ecb0d580094d7983578ab83ef6eb33.png" alt="Attachment" />
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="711678199331029023" id="message-711678199331029023">
+                <div class="chatlog__content">
+                    <span class="markdown">Updating versions, as well as enemy lists, can be found here: <a href="https://docs.google.com/spreadsheets/d/1lj_6789CxsaZmqHuDPRoStHojDz9Qiq214V-8nbyvaE/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1lj_6789CxsaZmqHuDPRoStHojDz9Qiq214V-8nbyvaE/edit?usp=sharing</a></span>
+
+                </div>
+
+
+
+            </div>
+    </div>
+</div><div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/172515560846917642/64b99e2f1ce2378c507001d7d1e4d766.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="Locrius 光复香港#9567" data-user-id="172515560846917642" style="color: #0CF2D4">Capsar ᘛ⁐̤ᕐᐷ #SimpvainThirstGang</span>
+
+
+        <span class="chatlog__timestamp">17-May-20 07:17 PM</span>
+
+            <div class="chatlog__message " data-message-id="711719041353646141" id="message-711719041353646141">
+                <div class="chatlog__content">
+                    <span class="markdown">White tile: normal
+Blue tile: water; only flying units can pass over
+Light green tile: forest; +10 avo, -1 mvt
+Dark green tile: thicket; +30 avo, -3 mvt, +3 def
+Grey with ==: stairs; -5 mvt to cavalry
+Medium grey: wall; only flying units can pass over
+Dark grey: uncrossable</span>
+
+                        <span class="chatlog__edited-timestamp" title="20-May-20 02:52 PM">(edited)</span>
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 6 message(s)</div>
+</div>
+
+</body>
+</html>
