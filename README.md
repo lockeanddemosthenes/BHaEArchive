@@ -1,4 +1,6 @@
 # BHaE-Archive
+Hosted on GitHub pages at https://lockeanddemosthenes.github.io/BHaEArchive/
+
 Between Heaven and Earth is a semi-private Discord server with its own unique style of tabletop-based roleplaying. Its battle system is based on that of Fire Emblem: Three Houses; however, it is distinct. This archive contains links to battle and event logs, as well as some information regarding thread history.
 
 Because the server is currently undergoing restructuring due to new features across Discord, future formatting is subject to change.
